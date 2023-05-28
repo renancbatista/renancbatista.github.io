@@ -6,8 +6,17 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Apresentação</title>
     <style> 
-           h1, p {
-            color: #540b0e
+           h1 {
+            color: #540b0e;
+            font-weight: 300;
+            text-align: center;
+
+           }
+           .nascido {
+            color: #06032c;
+            font-weight: 400;
+            text-decoration:solid;
+            text-align: center;
            }
           body {
             background-color: #ccd5ae
@@ -27,6 +36,19 @@
            .aconselhador{
             font-size: 15px;
            }
+           .fotoprincipal{
+            border-radius: 50px;
+           }
+           .button{
+            background-color: rgb(180, 190, 33);
+            color: rgb(0, 0, 0);
+            border-radius: 25px;
+            text-decoration: none;
+            padding: 15px;
+            box-shadow: 5px 5px 5px ;
+            text-shadow: 0  ;
+           }
+           
 
 
 
@@ -35,7 +57,7 @@
 <body>
     
     <h1  >Portifólio Renan Carvalho</h1>
-    <img src="/img/9gpD0feH_400x400.jpg" alt="jovem com cachorro na praia" width="250px">
+    <img class="fotoprincipal" src="/img/9gpD0feH_400x400.jpg" alt="jovem com cachorro na praia" width="250px">
     <br><br>
     <a href="/img/9gpD0feH_400x400.jpg">Foto_Praia</a>    
     <p class="nascido">Brasileiro, nascido em São José do Rio preto - SP</p>
@@ -46,13 +68,13 @@
     
     
     
-        <ul>
+        <ul class="lista">
             <li class="facilidade"><strong>Facilidade de Aprendizado</strong></li>
             <li class="determinado"><em>Determinado</em></li>
             <li class="companheiro"><em>Companheiro</em></li>
             <li class="aconselhador"><em>Aconselhador</em></li>
             </ul>
-        <a href="https://www.naointendo.com.br/" target="_blank">Blog Não Intendo</a>
+        <a class="button" href="https://www.naointendo.com.br/" target="_blank">Blog Não Intendo</a>
         <br><br>
         <p>
             <em>Sumário Site</em>
